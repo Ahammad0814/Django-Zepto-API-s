@@ -1,0 +1,30 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('category/',views.CategoryData,name='Category'),
+    path('foryou/', views.ForYouData, name='ForyouData'),
+    path('fruits-vegetables/', views.F_V_Data, name='F_V_Data'),
+    path('atta-oil/',views.Atta_Oil_Data, name='A_O_Data'),
+    path('masala-dryfruits/',views.M_D_Data, name='M_D_Data'),
+    path('sweet-craving/',views.S_C_Data, name='S_C_Data'),
+    path('frozen-food/',views.F_F_Data, name='F_F_Data'),
+    path('packed-food/',views.P_F_Data, name='P_F_Data'),
+    path('dairy-food/',views.D_F_Data, name='D_F_Data'),
+    path('cooldrinks/',views.C_D_Data, name='C_D_Data'),
+    path('munchies/',views.M_Data, name='M_Data'),
+    path('meat-fish-eggs/',views.M_F_E_Data, name='M_F_E_Data'),
+    path('breakfast/',views.B_S_Data, name='B_S_Data'),
+    path('tea-coffee/',views.T_C_Data, name='T_C_Data'),
+    path('biscuits/',views.B_C_Data, name='B_C_Data'),
+    path('makeup/',views.M_S_Data, name='M_S_Data'),
+    path('bath/',views.B_B_H_Data, name='B_B_H_Data'),
+    path('cleaning/',views.C_Data, name='C_Data'),
+    path('home-needs/',views.H_N_Data, name='H_N_Data'),
+    path('electronics/',views.E_Data, name='E_Data'),
+    path('grooming/',views.G_Data, name='G_Data'),
+    path('hygiene/',views.H_Data, name='H_Data'),
+    path('baby-care/',views.Baby_Care_Data, name='Baby_Care_Data'),
+    path('pet-care/',views.Pet_Care_Data, name='Pet_Care_Data'),
+    path('paan-corner/',views.P_C_Data, name='P_C_Data'),
+]

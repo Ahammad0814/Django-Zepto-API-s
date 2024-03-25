@@ -23,16 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-x8q+dx5!767z3ch%stbc!b4e9o%udv9sy8m&o50mw*65e2n^oy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app']
-
-
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://66019f8c7cfe6003d0b17b65--ahammad-sculptzepto-clone.netlify.app',
-    'https://6601a1c63cb4900b9f051117--ahammad-sculptzepto-clone.netlify.app',
-]
+ALLOWED_HOSTS = ['localhost', 'ahammad0814.pythonanywhere.com']
 
 # Application definition
 
